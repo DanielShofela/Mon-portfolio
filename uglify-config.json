@@ -1,0 +1,17 @@
+{
+    "compress": {
+        "drop_console": true,
+        "passes": 3,
+        "dead_code": true,
+        "global_defs": {
+            "DEBUG": false
+        }
+    },
+    "mangle": {
+        "toplevel": true,
+        "properties": true
+    },
+    "output": {
+        "comments": false
+    }
+}
