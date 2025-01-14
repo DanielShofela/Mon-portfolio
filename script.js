@@ -62,13 +62,21 @@ const projects = [
         //projectLink: "#", // Lien désactivé pour le moment
         //githubLink: "#" // Lien désactivé pour le moment
   //  },
+    //{
+      //  title: "SaaS pour l'identification des Employés d'Entreprise",
+        //description: "Plateforme SaaS pour centraliser la gestion des employés : Ajout et suppression d'employés, affichage de la liste des employés, generation d'une fiche d'identification par employé et la fiche est iprimable.",
+        //image: "identification.png",
+        //technologies: ["PHP", "HTML5", "CSS3", "JavaScript","MySQL", "Bootstrap","Git","GitHub","Dompdf"],
+        //projectLink: "#", // Lien désactivé pour le moment
+        //githubLink: "https://github.com/DanielShofela/SaaS-pour-l-identification-des-Employ-s-d-Entreprise.git"
+    //},
     {
-        title: "SaaS pour l'identification des Employés d'Entreprise",
-        description: "Plateforme SaaS pour centraliser la gestion des employés : Ajout et suppression d'employés, affichage de la liste des employés, generation d'une fiche d'identification par employé et la fiche est iprimable.",
-        image: "identification.png",
-        technologies: ["PHP", "HTML5", "CSS3", "JavaScript","MySQL", "Bootstrap","Git","GitHub","Dompdf"],
+        title: "Analyse de Données Météorologiques en Temps Réel",
+        description: "Application d'analyse de données météorologiques qui collecte, traite et analyse en temps réel les données météorologiques de différentes capitales mondiales. Le système est conçu pour fonctionner en continu, en collectant périodiquement des données via l'API OpenWeatherMap et en générant des analyses statistiques pertinentes.",
+        image: "meteo.png",
+        technologies: ["Python (Pandas, Requests, Schedule & NumPy)", "Power BI", "OpenWeatherMap API","Encodage UTF-8"],
         projectLink: "#", // Lien désactivé pour le moment
-        githubLink: "https://github.com/DanielShofela/SaaS-pour-l-identification-des-Employ-s-d-Entreprise.git"
+        githubLink: "https://github.com/DanielShofela/Analyse-de-Donn-es-M-t-orologiques-en-Temps-R-el.git"
     },
 ];
 
