@@ -72,7 +72,7 @@ const projects = [
     //},
     {
         title: "Analyse de Données Météorologiques en Temps Réel",
-        description: "Application d'analyse de données météorologiques qui collecte, traite et analyse en temps réel les données météorologiques de différentes capitales mondiales. Le système est conçu pour fonctionner en continu, en collectant périodiquement des données via l'API OpenWeatherMap et en générant des analyses statistiques pertinentes.",
+        description: "Application avancée d'analyse et de prédiction météorologique qui collecte, traite et analyse en temps réel les données météorologiques de différentes capitales mondiales. Le système combine la collecte de données en direct via l'API OpenWeatherMap avec des capacités prédictives basées sur l'apprentissage automatique. Cette approche double permet non seulement de suivre les conditions météorologiques actuelles mais aussi d'anticiper les tendances futures, offrant ainsi une solution complète pour l'analyse météorologique.",
         image: "meteo.png",
         technologies: ["Python (Pandas, Requests, Schedule & NumPy)", "Power BI", "OpenWeatherMap API","Encodage UTF-8"],
         projectLink: "#", // Lien désactivé pour le moment
