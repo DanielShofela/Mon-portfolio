@@ -31,28 +31,28 @@ themeToggle.addEventListener('click', () => {
 // Données des projets
 const projects = [
     {
-        title: "Site des Royal Ambassadors de l'Eglise Baptiste Eli d'Adjamé",
-        description: "Ce site perment aux membres de cette communauté de se connecter pour faire des achats, voir les evenements, et voir la biographie des directeurs.Il permet aussi aux personnes exterieures de voire en quoi consist ce mouvement.",
-        image: "ra.png",
-        technologies: ["PHP", "HTML5", "CSS3", "JavaScript","MySQL","Apache","Fontawesome6.0","Bootstrap"],
+        title: "🌦️ Application avancée d'analyse et de prédiction météorologique",
+        description: "Cette solution innovante collecte, traite et analyse en temps réel les données météorologiques de différentes capitales mondiales.<br><br>🚀Caractéristiques principales :<br><li> Collecte de données en direct via l'API OpenWeatherMap.</li> <li>Capacités prédictives basées sur l'apprentissage automatique pour anticiper les tendances futures.</li><br> 💡Grâce à cette approche double, le système permet :<br><br> <li>De suivre les conditions météorologiques actuelles avec précision.</li> <li>D'anticiper les évolutions climatiques pour une meilleure prise de décision.</li><br> Elle offre une vue claire et détaillée pour l'analyse météorologique, combinant technologie avancée et efficacité. 🌈",
+        image: "meteo.png",
+        technologies: ["Python (Pandas, Requests, Schedule & NumPy)", "Power BI", "OpenWeatherMap API", "Encodage UTF-8"],
         projectLink: "#", // Lien désactivé pour le moment
-        githubLink: "#" // Lien désactivé pour le moment
+        githubLink: "https://github.com/DanielShofela/Analyse-de-Donn-es-M-t-orologiques-en-Temps-R-el.git"
     },
     {
-        title: "Gestion de Restaurant",
-        description: "Application de gestion complète pour les restaurants, dévelopée avec Windev 25, permettant de gérer les commandes, les budgets quotidiens, et de calculer la rentabilité.",
-        image: "restaurant.png",
-        technologies: ["Windev 25"],
-        projectLink: "#", // Lien désactivé pour le moment
-        githubLink: "https://github.com/DanielShofela/Logiciel-de-gestion-de-restaurant-2024-1.0.git" 
-    },
-    {
-        title: "SaaS pour la Gestion d'Équipe de Football",
-        description: "Solution SaaS pour la gestion d'équipes sportives : suivi des joueurs, planification des entraînements, et statistiques des performances.",
+        title: "🏟️ Solution SaaS pour la gestion d'équipes sportives",
+        description: "⚽ Fonctionnalités principales :<br><br>👥 Suivi des joueurs :<br> gestion des profils, performances et statistiques.<br><br>📅 Planification des entraînements :<br> création de calendriers et organisation des sessions.<br><br>📊 Statistiques des performances :<br> analyse et visualisation des données pour optimiser les résultats.<br><br> Une solution complète pour accompagner les équipes sportives dans leur gestion quotidienne et l’amélioration de leurs performances. 🚀",
         image: "footsaas.png",
         technologies: ["PHP", "HTML5", "CSS3", "JavaScript","MySQL"],
         projectLink: "#", // Lien désactivé pour le moment
         githubLink: "https://github.com/DanielShofela/SaaS-pour-la-Gestion-d-quipe-de-Football.git" 
+    },
+    {
+        title: "Site des Royal Ambassadors de l'Eglise Baptiste Eli d'Adjamé",
+        description: "Ce site permet aux membres de la communauté de se connecter pour effectuer des achats, consulter les événements et découvrir les biographies des directeurs.<br> Il offre également aux personnes extérieures une présentation détaillée du mouvement et de ses activités.",
+        image: "ra.png",
+        technologies: ["PHP", "HTML5", "CSS3", "JavaScript","MySQL","Apache","Fontawesome6.0","Bootstrap"],
+        projectLink: "#", // Lien désactivé pour le moment
+        githubLink: "#" // Lien désactivé pour le moment
     },
  //   {
       //  title: "Tableau de Bord des Performances Scolaires",
@@ -71,12 +71,12 @@ const projects = [
         //githubLink: "https://github.com/DanielShofela/SaaS-pour-l-identification-des-Employ-s-d-Entreprise.git"
     //},
     {
-        title: "Analyse de Données Météorologiques en Temps Réel",
-        description: "Application avancée d'analyse et de prédiction météorologique qui collecte, traite et analyse en temps réel les données météorologiques de différentes capitales mondiales. Le système combine la collecte de données en direct via l'API OpenWeatherMap avec des capacités prédictives basées sur l'apprentissage automatique. Cette approche double permet non seulement de suivre les conditions météorologiques actuelles mais aussi d'anticiper les tendances futures, offrant ainsi une solution complète pour l'analyse météorologique.",
-        image: "meteo.png",
-        technologies: ["Python (Pandas, Requests, Schedule & NumPy)", "Power BI", "OpenWeatherMap API","Encodage UTF-8"],
+        title: "Gestion de Restaurant",
+        description: "Application de gestion complète pour les restaurants, dévelopée avec Windev 25, permettant de gérer les commandes, les budgets quotidiens, et de calculer la rentabilité.",
+        image: "restaurant.png",
+        technologies: ["Windev 25"],
         projectLink: "#", // Lien désactivé pour le moment
-        githubLink: "https://github.com/DanielShofela/Analyse-de-Donn-es-M-t-orologiques-en-Temps-R-el.git"
+        githubLink: "https://github.com/DanielShofela/Logiciel-de-gestion-de-restaurant-2024-1.0.git" 
     },
 ];
 
