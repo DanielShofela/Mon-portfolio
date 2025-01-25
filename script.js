@@ -72,11 +72,11 @@ const projects = [
     //},
     {
     "title": "🌍 Tableau de Bord Démographique Mondial",
-    "description": "📊 **Fonctionnalités principales** :<br><br>🗺️ **Carte interactive** :<br> visualisation des indicateurs démographiques par pays avec code couleur.<br><br>📈 **Graphique temporel** :<br> analyse des tendances démographiques globales depuis 1960.<br><br>🏆 **Classement dynamique** :<br> top 10 des pays par indicateur, mis à jour en temps réel.<br><br>👥 **Analyse comparative** :<br> courbes personnalisées pour les 10 pays les plus peuplés.<br><br>💡 Une solution intuitive et puissante pour explorer et comprendre les données démographiques mondiales. 🚀",
+    "description": "📊 Fonctionnalités principales :<br><br>🗺️ Carte interactive :<br> visualisation des indicateurs démographiques par pays avec code couleur.<br><br>📈 Graphique temporel :<br> analyse des tendances démographiques globales depuis 1960.<br><br>🏆 Classement dynamique :<br> top 10 des pays par indicateur, mis à jour en temps réel.<br><br>👥 Analyse comparative :<br> courbes personnalisées pour les 10 pays les plus peuplés.<br><br>💡 Une solution intuitive et puissante pour explorer et comprendre les données démographiques mondiales. 🚀",
     "image": "global-dashboard.png",
     "technologies": ["Python", "Dash", "Plotly", "API Integration", "Data Analysis"],
     "projectLink": "#", // Lien désactivé pour le moment
-    "githubLink": "https://github.com/DanielShofela/Tableau-de-Bord-Demographique.git"
+    "githubLink": "https://github.com/DanielShofela/Analyse-de-Donn-es-M-t-orologiques-en-Temps-R-el.git"
     },
     {
         title: "Gestion de Restaurant",
