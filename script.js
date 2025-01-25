@@ -54,22 +54,22 @@ const projects = [
         projectLink: "#", // Lien désactivé pour le moment
         githubLink: "#" // Lien désactivé pour le moment
     },
- //   {
-      //  title: "Tableau de Bord des Performances Scolaires",
-        //description: "Application pour analyser et suivre les performances scolaires des étudiants grâce à des visualisations interactives.",
-        //image: "static/images/school_performance_dashboard.jpg",
-        //technologies: ["Python", "Power BI", "Flask"],
-        //projectLink: "#", // Lien désactivé pour le moment
-        //githubLink: "#" // Lien désactivé pour le moment
-  //  },
-    //{
-      //  title: "SaaS pour l'identification des Employés d'Entreprise",
-        //description: "Plateforme SaaS pour centraliser la gestion des employés : Ajout et suppression d'employés, affichage de la liste des employés, generation d'une fiche d'identification par employé et la fiche est iprimable.",
-        //image: "identification.png",
-        //technologies: ["PHP", "HTML5", "CSS3", "JavaScript","MySQL", "Bootstrap","Git","GitHub","Dompdf"],
-        //projectLink: "#", // Lien désactivé pour le moment
-        //githubLink: "https://github.com/DanielShofela/SaaS-pour-l-identification-des-Employ-s-d-Entreprise.git"
-    //},
+    {
+    "title": "📚 Tableau de Bord des Performances Scolaires",
+    "description": "🎓 Une application intuitive pour analyser et suivre les performances scolaires des étudiants grâce à des visualisations interactives. Les utilisateurs peuvent explorer les données pour identifier les tendances académiques et optimiser les résultats. 🚀",
+    "image": "static/images/school_performance_dashboard.jpg",
+    "technologies": ["Python", "Power BI", "Flask"],
+    "projectLink": "#", // Lien désactivé pour le moment
+    "githubLink": "#" // Lien désactivé pour le moment
+    },
+    {
+    "title": "💼 SaaS pour l'Identification des Employés d'Entreprise",
+    "description": "🌟 Plateforme SaaS complète pour centraliser la gestion des employés :<br><br>➕ Ajout et suppression d'employés.<br>📋 Affichage de la liste des employés.<br>🖨️ Génération et impression des fiches d'identification.<br><br> Une solution conçue pour simplifier et optimiser la gestion RH en entreprise. 🚀",
+    "image": "identification.png",
+    "technologies": ["PHP", "HTML5", "CSS3", "JavaScript", "MySQL", "Bootstrap", "Git", "GitHub", "Dompdf"],
+    "projectLink": "#", // Lien désactivé pour le moment
+    "githubLink": "https://github.com/DanielShofela/SaaS-pour-l-identification-des-Employ-s-d-Entreprise.git"
+    },
     {
     "title": "🌍 Tableau de Bord Démographique Mondial",
     "description": "📊 Fonctionnalités principales :<br><br>🗺️ Carte interactive :<br> visualisation des indicateurs démographiques par pays avec code couleur.<br><br>📈 Graphique temporel :<br> analyse des tendances démographiques globales depuis 1960.<br><br>🏆 Classement dynamique :<br> top 10 des pays par indicateur, mis à jour en temps réel.<br><br>👥 Analyse comparative :<br> courbes personnalisées pour les 10 pays les plus peuplés.<br><br>💡 Une solution intuitive et puissante pour explorer et comprendre les données démographiques mondiales. 🚀",
