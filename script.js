@@ -71,6 +71,14 @@ const projects = [
         //githubLink: "https://github.com/DanielShofela/SaaS-pour-l-identification-des-Employ-s-d-Entreprise.git"
     //},
     {
+    "title": "🌍 Tableau de Bord Démographique Mondial",
+    "description": "📊 **Fonctionnalités principales** :<br><br>🗺️ **Carte interactive** :<br> visualisation des indicateurs démographiques par pays avec code couleur.<br><br>📈 **Graphique temporel** :<br> analyse des tendances démographiques globales depuis 1960.<br><br>🏆 **Classement dynamique** :<br> top 10 des pays par indicateur, mis à jour en temps réel.<br><br>👥 **Analyse comparative** :<br> courbes personnalisées pour les 10 pays les plus peuplés.<br><br>💡 Une solution intuitive et puissante pour explorer et comprendre les données démographiques mondiales. 🚀",
+    "image": "global-dashboard.png",
+    "technologies": ["Python", "Dash", "Plotly", "API Integration", "Data Analysis"],
+    "projectLink": "#", // Lien désactivé pour le moment
+    "githubLink": "https://github.com/DanielShofela/Tableau-de-Bord-Demographique.git"
+    }
+    {
         title: "Gestion de Restaurant",
         description: "Application de gestion complète pour les restaurants, dévelopée avec Windev 25, permettant de gérer les commandes, les budgets quotidiens, et de calculer la rentabilité.",
         image: "restaurant.png",
