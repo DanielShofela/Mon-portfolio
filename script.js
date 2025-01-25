@@ -77,7 +77,7 @@ const projects = [
     "technologies": ["Python", "Dash", "Plotly", "API Integration", "Data Analysis"],
     "projectLink": "#", // Lien désactivé pour le moment
     "githubLink": "https://github.com/DanielShofela/Tableau-de-Bord-Demographique.git"
-    }
+    },
     {
         title: "Gestion de Restaurant",
         description: "Application de gestion complète pour les restaurants, dévelopée avec Windev 25, permettant de gérer les commandes, les budgets quotidiens, et de calculer la rentabilité.",
