@@ -54,14 +54,14 @@ const projects = [
         projectLink: "#", // Lien désactivé pour le moment
         githubLink: "#" // Lien désactivé pour le moment
     },
-    {
-    "title": "📚 Tableau de Bord des Performances Scolaires",
-    "description": "🎓 Une application intuitive pour analyser et suivre les performances scolaires des étudiants grâce à des visualisations interactives. Les utilisateurs peuvent explorer les données pour identifier les tendances académiques et optimiser les résultats. 🚀",
-    "image": "static/images/school_performance_dashboard.jpg",
-    "technologies": ["Python", "Power BI", "Flask"],
-    "projectLink": "#", // Lien désactivé pour le moment
-    "githubLink": "#" // Lien désactivé pour le moment
-    },
+    //{
+    //"title": "📚 Tableau de Bord des Performances Scolaires",
+    //"description": "🎓 Une application intuitive pour analyser et suivre les performances scolaires des étudiants grâce à des visualisations interactives. Les utilisateurs peuvent explorer les données pour identifier les tendances académiques et optimiser les résultats. 🚀",
+    //"image": "static/images/school_performance_dashboard.jpg",
+    //"technologies": ["Python", "Power BI", "Flask"],
+    //"projectLink": "#", // Lien désactivé pour le moment
+   // "githubLink": "#" // Lien désactivé pour le moment
+    //},
     {
     "title": "💼 SaaS pour l'Identification des Employés d'Entreprise",
     "description": "🌟 Plateforme SaaS complète pour centraliser la gestion des employés :<br><br>➕ Ajout et suppression d'employés.<br>📋 Affichage de la liste des employés.<br>🖨️ Génération et impression des fiches d'identification.<br><br> Une solution conçue pour simplifier et optimiser la gestion RH en entreprise. 🚀",
