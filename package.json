@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Un portfolio professionnel, minimaliste et responsive présentant mes compétences et projets en tant que développeur backend.",
+  "main": "index.js",
+  "scripts": {
+    "protect": "node protect.js",
+    "build": "npm run protect",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "html-minifier": "^4.0.0",
+    "javascript-obfuscator": "^4.1.0",
+    "uglify-js": "^3.17.4"
+  }
+}
