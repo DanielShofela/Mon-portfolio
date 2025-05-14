@@ -457,15 +457,21 @@ nav {
 .project-tech {
     display: flex;
     flex-wrap: wrap;
+ 
     gap: 0.5rem;
     margin-bottom: 1.5rem;
     max-height: 120px;
     overflow-y: auto;
+
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+
 }
 
 .tech-tag {
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     color: white;
+
     padding: 0.35rem 0.75rem;
     border-radius: 15px;
     font-size: 0.85rem;
@@ -473,6 +479,13 @@ nav {
     transition: all 0.3s ease;
     white-space: nowrap;
     display: inline-block;
+
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
 }
 
 .tech-tag:hover {

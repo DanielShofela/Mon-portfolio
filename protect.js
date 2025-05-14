@@ -69,6 +69,7 @@ const minifiedHtml = HtmlMinifier.minify(htmlContent, {
     minifyURLs: true
 });
 
+HEAD
 // Configuration du formulaire
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contact-form');
@@ -101,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
 
 // Création du dossier dist s'il n'existe pas
 if (!fs.existsSync('./dist')) {
