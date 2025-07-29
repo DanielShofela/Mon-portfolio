@@ -31,6 +31,14 @@ themeToggle.addEventListener('click', () => {
 // Données des projets
 const projects = [
     {
+        title: "📊 Digitalisation Commerciale - A-COSMETIC",
+        description: "🚀 Application complète de gestion commerciale développée durant mon stage chez A-COSMETIC :<br><br>📈 Fonctionnalités clés :<br><li>Tableaux de bord pour l'analyse des ventes</li><li>Interface de gestion commerciale en PHP/MySQL</li><br>💡 Résultats :<br><li>Réduction du temps de reporting de 75%</li><li>Digitalisation complète du processus commercial</li>",
+        image: "acos.png",
+        technologies: ["PHP", "MySQL", "Power BI", "Python", "API REST"],
+        projectLink: "#",
+        githubLink: "#"
+    },
+    {
         title: "🌦️ Application avancée d'analyse et de prédiction météorologique",
         description: "Cette solution innovante collecte, traite et analyse en temps réel les données météorologiques de différentes capitales mondiales.<br><br>🚀Caractéristiques principales :<br><li> Collecte de données en direct via l'API OpenWeatherMap.</li> <li>Capacités prédictives basées sur l'apprentissage automatique pour anticiper les tendances futures.</li><br> 💡Grâce à cette approche double, le système permet :<br><br> <li>De suivre les conditions météorologiques actuelles avec précision.</li> <li>D'anticiper les évolutions climatiques pour une meilleure prise de décision.</li><br> Elle offre une vue claire et détaillée pour l'analyse météorologique, combinant technologie avancée et efficacité. 🌈",
         image: "meteo.png",
@@ -169,10 +177,45 @@ function addProject(project) {
     displayProjects();
 }
 
+// Gestion du menu burger
+function initBurgerMenu() {
+    const burger = document.querySelector('.burger-menu');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    burger.addEventListener('click', () => {
+        // Toggle navigation
+        burger.classList.toggle('active');
+        nav.classList.toggle('active');
+        
+        // Animation du burger
+        burger.setAttribute('aria-expanded', 
+            burger.classList.contains('active') ? 'true' : 'false'
+        );
+    });
+
+    // Fermer le menu quand on clique sur un lien
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            burger.classList.remove('active');
+            nav.classList.remove('active');
+        });
+    });
+
+    // Fermer le menu quand on clique en dehors
+    document.addEventListener('click', (e) => {
+        if (!nav.contains(e.target) && !burger.contains(e.target)) {
+            burger.classList.remove('active');
+            nav.classList.remove('active');
+        }
+    });
+}
+
 // Initialisation
 document.addEventListener('DOMContentLoaded', function() {
     initTheme();
     displayProjects();
+    initBurgerMenu();
 });
 
 // Fonction pour ajouter un nouveau projet
