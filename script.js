@@ -31,11 +31,19 @@ themeToggle.addEventListener('click', () => {
 // Données des projets
 const projects = [
     {
+    "title": "🛍️ A-COSMETIC - Boutique de Cosmétiques en Ligne",
+    "description": "🌟 Site e-commerce élégant spécialisé dans les produits cosmétiques :<br><br>✨ Fonctionnalités principales :<br><li>🎨 Design moderne et responsive</li><li>� Recherche et filtrage des produits</li><li>📱 Navigation intuitive sur mobile</li><li>💄 Catalogue détaillé des produits</li><li>📦 Processus de commande simplifié</li><br>🎯 Points forts :<br><li>⚡ Performance et rapidité optimisées</li><li>🎨 Interface utilisateur soignée et professionnelle</li><li>📱 Expérience mobile exceptionnelle</li>",
+    "image": "acos2.png",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design", "Mobile First"],
+    "projectLink": "https://acosmetic.netlify.app/",
+    "githubLink": "#"
+    },
+    {
         title: "📊 Digitalisation Commerciale - A-COSMETIC",
-        description: "🚀 Application complète de gestion commerciale développée durant mon stage chez A-COSMETIC :<br><br>📈 Fonctionnalités clés :<br><li>Tableaux de bord pour l'analyse des ventes</li><li>Interface de gestion commerciale en PHP/MySQL</li><br>💡 Résultats :<br><li>Réduction du temps de reporting de 75%</li><li>Digitalisation complète du processus commercial</li>",
+        description: "🚀 Application complète de gestion commerciale développée durant mon stage chez A-COSMETIC :<br><br>📈 Fonctionnalités clés :<br><li>Tableaux de bord pour l'analyse des ventes</li><li>Interface de gestion commerciale en PHP/MySQL</li><br>💡 Résultats :<br><li>Réduction du temps de reporting de 75%</li><li>Digitalisation complète du processus commercial</li><br>✨ Le site est maintenant en ligne et accessible !",
         image: "acos.png",
         technologies: ["PHP", "MySQL", "Power BI", "Python", "API REST"],
-        projectLink: "#",
+        // projectLink: "https://acosmetic.netlify.app/",
         githubLink: "#"
     },
     {
@@ -102,15 +110,6 @@ const projects = [
     "technologies": ["PHP", "HTML5", "CSS3", "JavaScript", "MySQL", "Bootstrap", "Git", "GitHub", "Dompdf"],
     "projectLink": "#", // Lien désactivé pour le moment
     "githubLink": "https://github.com/DanielShofela/SaaS-pour-l-identification-des-Employ-s-d-Entreprise.git"
-    },
-    {
-    "title": "🌍 Tableau de Bord Démographique Mondial",
-    "description": "📊 Fonctionnalités principales :<br><br>🗺️ Carte interactive :<br> visualisation des indicateurs démographiques par pays avec code couleur.<br><br>📈 Graphique temporel :<br> analyse des tendances démographiques globales depuis 1960.<br><br>🏆 Classement dynamique :<br> top 10 des pays par indicateur, mis à jour en temps réel.<br><br>👥 Analyse comparative :<br> courbes personnalisées pour les 10 pays les plus peuplés.<br><br>💡 Une solution intuitive et puissante pour explorer et comprendre les données démographiques mondiales. 🚀",
-    "image": "global-dashboard.png",
-    "technologies": ["Python", "Dash", "Plotly", "API Integration", "Data Analysis"],
-    "projectLink": "#", // Lien désactivé pour le moment
-    "githubLink": "https://github.com/DanielShofela/Analyse-de-Donn-es-M-t-orologiques-en-Temps-R-el.git"
-
     },
     {
         title: "Gestion de Restaurant",
